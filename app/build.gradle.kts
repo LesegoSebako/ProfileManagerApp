@@ -5,11 +5,19 @@ plugins {
 }
 
 android {
+<<<<<<< HEAD
     namespace = "com.example.profilemanagerapp"
     compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.profilemanagerapp"
+=======
+    namespace = "com.example.packinglistapp"
+    compileSdk = 35
+
+    defaultConfig {
+        applicationId = "com.example.packinglistapp"
+>>>>>>> cb357a5 (Initial Commit)
         minSdk = 24
         targetSdk = 35
         versionCode = 1
@@ -49,6 +57,11 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+<<<<<<< HEAD
+=======
+    implementation(libs.navigation.compose)
+
+>>>>>>> cb357a5 (Initial Commit)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -56,4 +69,8 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> cb357a5 (Initial Commit)

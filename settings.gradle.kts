@@ -19,6 +19,11 @@ dependencyResolutionManagement {
     }
 }
 
+<<<<<<< HEAD
 rootProject.name = "ProfileManagerApp"
 include(":app")
  
+=======
+rootProject.name = "PackingListApp"
+include(":app")
+>>>>>>> cb357a5 (Initial Commit)
